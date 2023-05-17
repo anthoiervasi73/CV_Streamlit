@@ -16,8 +16,6 @@ st.markdown("<style>@import url('https://fonts.googleapis.com/css2?family=Kalam:
 # image 
 image = Image.open('logowild.png')
 photo = Image.open('photo.jpg')
-github = Image.open('github.png')
-linkedin = Image.open('linkedin.png')
 
 ###############################################################################################################################################
 ##### Debut de la page

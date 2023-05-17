@@ -4,5 +4,7 @@ Afin de me démarquer lors de ma future recherche d'emploi tout en continuant à
 
 **CV - ANALYSE DE MON PARCOURS PROFESSIONNEL**
 
+Stack technique : Python (Pandas, Plotly), Streamlit, GitHub
+
 ## Lien vers la web-app
 https://anthoiervasi73-cv-streamlit-home-0jn5j2.streamlit.app/

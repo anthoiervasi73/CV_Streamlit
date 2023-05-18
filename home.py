@@ -15,7 +15,7 @@ st.markdown("<style>@import url('https://fonts.googleapis.com/css2?family=Kalam:
 
 # image 
 image = Image.open('logowild.png')
-photo = Image.open('photo.jpg')
+photo = Image.open('photo profil.jpg')
 
 ###############################################################################################################################################
 ##### Debut de la page
@@ -38,7 +38,7 @@ with tab1:
     # crea de div
     main_container1 = st.container()
 
-    info_cont, sep_cont1, photo_cont, sep2, info2_cont = main_container1.columns([2, 1, 3, 1, 2])
+    info_cont, sep_cont1, photo_cont, sep2, info2_cont = main_container1.columns([2, 1, 2, 1, 2])
     
    
         
@@ -51,7 +51,7 @@ with tab1:
         st.markdown('<p style=" font-family: Kalam; font-size:40px;text-align: center;">Anthony Iervasi</p>', unsafe_allow_html=True)
         
         # Ajouter espaces
-        st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown("<br><br><br>", unsafe_allow_html=True)
         
         st.markdown('<p style=" font-family: Kalam; font-size: 23px;text-align: center;">&#11088; 30 Ans <br> &#x1F3E0; Aix Les Bains <br> &#x1F4F1; +33 7 67 97 18 42 <br> &#x1F4EB; anthodev69@gmail.com </p>', unsafe_allow_html=True)
         

@@ -24,7 +24,7 @@ photo = Image.open('photo.jpg')
 st.markdown('<p style=" font-family: Kalam; font-size: 40px;">CV - ANALYSE DE MON PARCOURS PROFESSIONNEL</p>', unsafe_allow_html=True)
 
 ##### CREER DES TAB 
-tab1, tab2, tab3, tab4, tab5 = st.tabs(['PRESENTATION','EXPERIENCES', 'SOFTSKILLS', 'HARDSKILLS', 'FORMATIONS'])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(['PRÉSENTATION','EXPÉRIENCES', 'SOFTSKILLS', 'HARDSKILLS', 'FORMATIONS'])
 
 
 ###############################################################################################################################################
@@ -105,7 +105,7 @@ with tab2:
         
         # data XP pour barplot horizontal
         data_xp = {'Postes' : ['Technicien de maintenance informatique', 'Carreleur', 'Développeur Web & Mobile', 'Responsable Réception & Stock',
-                                'Développeur Wordpress', 'Data Analyste - Analyste BI'],
+                                'Développeur Wordpress', 'Data Analyst - BI Analyst'],
                    'XP' : [1,4,0.5,1,3,0.5],
                    'Prise de poste' : ['2014','2015','2019','2019','2020','2023'],
                    'Type de poste' : ['CDD','Auto-entreprise','Stage','CDI','Auto-entreprise','Stage']}
@@ -149,12 +149,12 @@ with tab2:
         st.markdown("<br>", unsafe_allow_html=True)
         
         # textes
-        st.markdown('<p style=" font-family: Kalam; font-size: 17px;">2023 - Data analyste / Analyste BI :</p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Kalam; font-size: 17px;">2023 - Data Analyst - BI Analyst :</p>', unsafe_allow_html=True)
         st.markdown('<p style=" font-family: Roboto; font-size: 13px;">- Réalisation d\'analyses data, et business intelligence <br> - Réalisation de Dataviz au travers de Dashboard ou de web-app <br> - Création d\'algorithmes prédictifs et de recommandations grâce au machine Learning </p>', unsafe_allow_html=True)
         
         ###
         st.markdown('<p style=" font-family: Kalam; font-size: 17px;">2020 - Développeur Wordpress : </p>', unsafe_allow_html=True)
-        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">- Comptabilité, Réalisation de devis, Gestion de projet, Relation client <br> - Réalisation de site clef en main avec Elementor, Gestion de l\'hébergement</p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">- Comptabilité, Réalisation de devis, Gestion de projet, Relation client <br> - Réalisation de sites clefs en main avec Elementor, Gestion de l\'hébergement</p>', unsafe_allow_html=True)
        
         ###
         st.markdown('<p style=" font-family: Kalam; font-size: 17px;">2019 - Responsable Réception & Stock : </p>', unsafe_allow_html=True)
@@ -162,7 +162,7 @@ with tab2:
        
         ###
         st.markdown('<p style=" font-family: Kalam; font-size: 17px;">2019 - Développeur Web & Mobile : </p>', unsafe_allow_html=True)
-        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">- Projet client : Réalisation d\'un mvp pour une application cross-plateforme d\'aide aux malvoyants avec Angular & Ionic en méthode agile Scrum : <a href="https://vocaleo-app.com/">vocaleo-app</a> <br> - Projet Ecole : Développement d’un jeu 2d type Bomberman avec javascript en méthode agile Scrum</p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">- Projet client : Réalisation d\'un mvp pour une application cross-plateform d\'aide aux malvoyants avec Angular & Ionic en méthode agile Scrum : <a href="https://vocaleo-app.com/">vocaleo-app</a> <br> - Projet Ecole : Développement d’un jeu 2d type Bomberman avec javascript en méthode agile Scrum</p>', unsafe_allow_html=True)
         
         ###
         st.markdown('<p style=" font-family: Kalam; font-size: 17px;">2015 - Carreleur : </p>', unsafe_allow_html=True)
@@ -215,19 +215,19 @@ with tab3:
         
         ###
         st.markdown('<p style=" font-family: Kalam; font-size: 17px;">Autonomie :</p>', unsafe_allow_html=True)
-        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">Grace au diverses activités que j\'ai effectuées en auto-entreprise, je suis devenu parfaitement autonome pour réaliser toutes les taches qui me sont confiées. <br>  j\'ai également débuté la programmation en autodidacte et j\'ai gardé l\'habitude d\'effectuer une veille régulière, ce qui me permet de me perfectionner sur les technos que j\'utilise mais également de m\'autoformer rapidement sur d\'éventuelles nouvelles technologies qui pourront m\'être utile pour mon métier d\'analyste</p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">Grâce aux diverses activités que j\'ai effectuées en auto-entreprise, je suis devenu parfaitement autonome pour réaliser toutes les taches qui me sont confiées. <br>  J\'ai également débuté la programmation en autodidacte et j\'ai gardé l\'habitude d\'effectuer une veille régulière, ce qui me permet de me perfectionner sur les technos que j\'utilise mais également de m\'autoformer rapidement sur d\'éventuelles nouvelles technologies qui pourront m\'être utile pour mon métier d\'analyste</p>', unsafe_allow_html=True)
         st.markdown("<br>", unsafe_allow_html=True)
         ###
-        st.markdown('<p style=" font-family: Kalam; font-size: 17px;">Perseverance :</p>', unsafe_allow_html=True)
-        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">Mes parcours professionnel et personnel m\'ont appris que dans chaque situation il est possible de faire face à des difficultés diverses et variées. <br> C\'est grâce à ma persévérance et à ma capacité à rester positif que je réussis en tout temps à surmonter les épreuves, afin de mener à bien les missions qui me sont confiés.</p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Kalam; font-size: 17px;">Persévérance :</p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">Mes parcours professionnel et personnel m\'ont appris que dans chaque situation il est possible de faire face à des difficultés diverses et variées. <br> C\'est grâce à ma persévérance et à ma capacité à rester positif que je réussis en tout temps à surmonter les épreuves, afin de mener à bien les missions qui me sont confiées.</p>', unsafe_allow_html=True)
         st.markdown("<br>", unsafe_allow_html=True)
         ###
-        st.markdown('<p style=" font-family: Kalam; font-size: 17px;">Exigeance :</p>', unsafe_allow_html=True)
-        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">Mon amour du travail bien fait m\'a mené à développer une certaine exigence envers moi même mais également envers mes collaborateurs. <br> Couplés à ma bienveillance naturelle, cela me permet de motiver positivement mon équipe afin de fournir des rendus toujours plus aboutis et professionnels.</p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Kalam; font-size: 17px;">Exigence :</p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">Mon amour du travail bien fait m\'a mené à développer une certaine exigence envers moi même mais également envers mes collaborateurs. <br> Couplé à ma bienveillance naturelle, cela me permet de motiver positivement mon équipe afin de fournir des rendus toujours plus aboutis et professionnels.</p>', unsafe_allow_html=True)
         st.markdown("<br>", unsafe_allow_html=True)
         ###
         st.markdown('<p style=" font-family: Kalam; font-size: 17px;">Force de Proposition :</p>', unsafe_allow_html=True)
-        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">Au travers des projets que j\'ai réalisé grâce à mes activités d\'entrepreneur, j\'ai acquis un talent certain en matière de réflexion et de proposition, ce qui ma permis d\'accompagner mes clients dans la réalisation de leurs projets en les conseillant et en leurs proposants des alternatives et améliorations diverses.<br>Cela me permettra également d\'aider ma future équipe de manière pertinente sur les phases de réflexion projet. </p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Roboto; font-size: 13px;">Au travers des projets que j\'ai réalisé grâce à mes activités d\'entrepreneur, j\'ai acquis un talent certain en matière de réflexion et de proposition, ce qui ma permis d\'accompagner mes clients dans la réalisation de leurs projets en les conseillant et en leur proposant des alternatives et améliorations diverses.<br>Cela me permettra également d\'aider ma future équipe de manière pertinente sur les phases de réflexion projet. </p>', unsafe_allow_html=True)
         
         
 

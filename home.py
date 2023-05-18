@@ -45,10 +45,10 @@ with tab1:
     with info_cont:
         
         # Ajouter espaces
-        st.markdown("<br><br>", unsafe_allow_html=True)
+        st.markdown("<br><br><br>", unsafe_allow_html=True)
         
         # textes
-        st.markdown('<p style=" font-family: Kalam; font-size:40px;text-align: center;">Anthony Iervasi</p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Kalam; font-size:45px;text-align: center;">Anthony Iervasi</p>', unsafe_allow_html=True)
         
         # Ajouter espaces
         st.markdown("<br><br><br>", unsafe_allow_html=True)
@@ -63,12 +63,12 @@ with tab1:
     with info2_cont:
         
         # Ajouter espaces
-        st.markdown("<br>", unsafe_allow_html=True)
+        st.markdown("<br><br>", unsafe_allow_html=True)
         
         # textes
-        st.markdown('<p style=" font-family: Kalam; font-size:30px;">Langues</p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Kalam; font-size:35px;">Langues</p>', unsafe_allow_html=True)
         
-        st.markdown('<p style=" font-family: Kalam; font-size: 18px;">&#x1F1EB;&#x1F1F7; Langue Maternelle <br> &#x1F1EC;&#x1F1E7; Niveau B2  </p>', unsafe_allow_html=True)
+        st.markdown('<p style=" font-family: Kalam; font-size: 24px;">&#x1F1EB;&#x1F1F7; Langue Maternelle <br> &#x1F1EC;&#x1F1E7; Niveau B2  </p>', unsafe_allow_html=True)
         
         # Ajouter espaces
         st.markdown("<br><br>", unsafe_allow_html=True)
